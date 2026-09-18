@@ -1,0 +1,14 @@
+{
+  "name": "MoveOption",
+  "short_name": "MoveOption",
+  "icons": [
+    {
+      "src": "/assets/favicon.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#07111f",
+  "background_color": "#07111f",
+  "display": "browser"
+}
