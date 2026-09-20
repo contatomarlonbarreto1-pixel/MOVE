@@ -15,4 +15,8 @@ Open `index.html` in a browser, or serve this directory with any static web serv
 
 ## Deployment
 
-The site is static and can be deployed through GitHub Pages by publishing the repository root.
+The site is ready for GitHub Pages with `www.moveoption.com` as its canonical domain.
+
+1. In **Settings → Pages**, publish the `main` branch from the repository root and set the custom domain to `www.moveoption.com`.
+2. In Cloudflare DNS, create a `CNAME` record for `www` pointing to `contatomarlonbarreto1-pixel.github.io` (keep it DNS-only until GitHub issues the certificate).
+3. Redirect `moveoption.com` to `https://www.moveoption.com` in Cloudflare, then enable **Enforce HTTPS** in GitHub Pages.

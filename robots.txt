@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://moveoption.com/sitemap.xml
+Sitemap: https://www.moveoption.com/sitemap.xml
