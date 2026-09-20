@@ -15,8 +15,8 @@ Open `index.html` in a browser, or serve this directory with any static web serv
 
 ## Deployment
 
-The site is ready for GitHub Pages with `www.moveoption.com` as its canonical domain.
+The site is prepared to be hosted at `https://moveoption.com/broker/` as its canonical URL.
 
-1. In **Settings → Pages**, publish the `main` branch from the repository root and set the custom domain to `www.moveoption.com`.
-2. In Cloudflare DNS, create a `CNAME` record for `www` pointing to `contatomarlonbarreto1-pixel.github.io` (keep it DNS-only until GitHub issues the certificate).
-3. Redirect `moveoption.com` to `https://www.moveoption.com` in Cloudflare, then enable **Enforce HTTPS** in GitHub Pages.
+1. Deploy the repository contents into the `/broker/` directory of the `moveoption.com` origin.
+2. Keep this directory reachable with a successful HTTPS `200` response at `https://moveoption.com/broker/`.
+3. Submit `https://moveoption.com/broker/sitemap.xml` in Google Search Console after deployment.
